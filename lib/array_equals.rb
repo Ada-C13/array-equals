@@ -1,6 +1,12 @@
 # Determines if the two input arrays have the same count of elements
 # and the same integer values in the same exact order
 def array_equals(array1, array2)
+  if array1 == nil && array2 == nil 
+    return true 
+  elsif array1 == nil || array2 == nil
+    return false 
+  end 
+
   unless array1.length == array2.length
     return false 
   end 
@@ -20,13 +26,10 @@ def array_equals(array1, array2)
     if k == index_num
       return true 
     end  
-
-  elsif array1 == nil && array2 == nil
-    return true 
+  else 
+    return false 
   end 
- 
-  
-  
 
+  return false 
   raise NotImplementedError
 end
