@@ -1,5 +1,8 @@
 #!/usr/bin/ruby
 # 
+# Title  : Planet - Ada Cohort 13 - Space
+# Author : Suely Barreto
+# Date   : March 2020
 
 # Determines if the two input arrays have the same count of elements
 # and the same integer values in the same exact order
