@@ -22,7 +22,3 @@ def array_equals(array1, array2)
   end
 end
 
-arr_1 = nil
-arr_2 = nil
-
-p array_equals(arr_1, arr_2)
