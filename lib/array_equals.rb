@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 # 
-# Title  : Planet - Ada Cohort 13 - Space
+# Title  : Array Equals - Ada Cohort 13 - Space
 # Author : Suely Barreto
 # Date   : March 2020
 
