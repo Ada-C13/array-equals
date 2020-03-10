@@ -1,7 +1,10 @@
+require 'minitest'
 require 'minitest/autorun'
 require 'minitest/reporters'
+require 'minitest/pride'
+require 'minitest/skip_dsl'
 require_relative '../lib/array_equals'
-
+Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 describe "array equals" do
   describe "basic tests" do
     it "arrays are equal" do
@@ -10,7 +13,7 @@ describe "array equals" do
 
       array_equals(array1, array2).must_equal true
     end
-
+    
     it "arrays not equal: first six elements are same" do
       array1 = [10, 20, 30, 40, 50, 60]
       array2 = [10, 20, 30, 40, 50, 60, 70]
