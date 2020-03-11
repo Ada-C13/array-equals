@@ -1,6 +1,4 @@
-require 'minitest/autorun'
-require 'minitest/reporters'
-require_relative '../lib/array_equals'
+require_relative "test_helper"
 
 describe "array equals" do
   describe "basic tests" do
