@@ -20,7 +20,7 @@ def array_equals(array1, array2)
   elsif array1.length != array2.length
     return false
   # if values at indices are not equal
-  elsif
+  else
     array1.length.times do |i|
       return false if array1[i] != array2[i]
     end
