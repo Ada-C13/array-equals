@@ -11,7 +11,7 @@ def array_equals(array1, array2)
     return false
   else
     array1.length.times do |i|
-      return false unless array1[1] == array2[i]
+      return false unless array1[i] == array2[i]
     end
     return true
   end
