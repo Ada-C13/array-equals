@@ -3,15 +3,15 @@
 def array_equals(array1, array2)
   return true if array1 == nil && array2 == nil
   return false if array1 == nil || array2 == nil
+ 
 
   if array1.length == array2.length 
-    array1.each_with_index do |i, elem|
+    array1.each_with_index do |elem, i|
       if elem != array2[i]
         return false
       end
     end 
-    return true 
-
+  return true 
   else 
     return false
   end
